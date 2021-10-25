@@ -1,0 +1,19 @@
+* {font-family: Verdana, Geneva, Tahoma, sans-serif}
+
+body {background: tomato;background-image: url(https://scontent.faep8-2.fna.fbcdn.net/v/t1.6435-9/49035837_307159793261254_5620727870964891648_n.png?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeGjTqyjYTJUi7pd7M6xwQMa0378Trd7057TfvxOt3vTnjqwa7R3H9uWFX8I1HM2bj3NZxfPrx5Atju-yh7gFJws&_nc_ohc=LkIYAF0bieAAX8nioho&tn=F3gDONc9-dYNLk-A&_nc_ht=scontent.faep8-2.fna&oh=d49cc44282384b0e76c6e555b360e1ce&oe=619C3851);}
+
+
+#contenedor{background: whitesmoke;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0.1%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    padding-left: 1%;}
+
+.pie{border-top: 2px solid black;}
+
+.cabecera{border: 2px solid  red}
+.título{text-align: center;}
+.contenido{text-align: justify;}
