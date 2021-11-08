@@ -1,17 +1,59 @@
 * {margin: 0%; padding: 0%}
 
-.header{margin-top: 10%; margin-bottom: 1%; text-align: center;font-family: Georgia, 'Times New Roman', Times, serif ; text-decoration: none;}
+.header {display: flex; justify-content: space-evenly;}
+  .header a {
+    letter-spacing: 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.5rem;
+    position: relative;}
+  .header a:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background: rgb(94, 96, 97);
+    /*animacion de derecha a izquierda*/
+    transform-origin: center;
+    transform: scaleX(0);
+    transition: transform 0.35s ease-in-out;}
+  .header a:hover:after {
+      /*animacion de derecha a izquierda*/
+    transform-origin: center;
+    transform: scaleX(1);}
+
 
 body {background-image: url(https://scontent.faep8-2.fna.fbcdn.net/v/t1.6435-9/49035837_307159793261254_5620727870964891648_n.png?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeGjTqyjYTJUi7pd7M6xwQMa0378Trd7057TfvxOt3vTnjqwa7R3H9uWFX8I1HM2bj3NZxfPrx5Atju-yh7gFJws&_nc_ohc=LkIYAF0bieAAX8nioho&tn=F3gDONc9-dYNLk-A&_nc_ht=scontent.faep8-2.fna&oh=d49cc44282384b0e76c6e555b360e1ce&oe=619C3851); background-repeat: no-repeat;   background-attachment: fixed;background-position: center; background-color: rgb(222, 222, 222);margin-top: 20px;}
     
-.navbar {text-align: center; list-style-type: none}
-.navbar ul li {display: inline-block;}
-.navbar ul li a {text-decoration: none; display: block;margin: 10px; color:rgb(94, 16, 16)}
-.navbar ul li a:hover {background-color:rgba(173, 199, 192, 0.171) }
 
-
-
-
-
-
-.contenido{text-align: justify;}
+.navbar ul li {display: inline-block; margin: 50pt;}
+.navbar {
+    margin: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-evenly;}
+  .navbar a {
+    letter-spacing: 5px;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.5rem;
+    position: relative;}
+  .navbar a:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background: rgb(94, 96, 97);
+    /*animacion de derecha a izquierda*/
+    transform-origin: center;
+    transform: scaleX(0);
+    transition: transform 0.35s ease-in-out;}
+  .navbar a:hover:after {
+      /*animacion de derecha a izquierda*/
+    transform-origin: center;
+    transform: scaleX(1);}
